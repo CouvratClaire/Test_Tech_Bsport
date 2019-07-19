@@ -1,0 +1,42 @@
+
+
+li {
+    list-style-type: none; /* on annule la puce par défaut */
+    background-color: #DAE9EC; /* on affiche l'image souhaitée */
+    background-repeat: no-repeat; /* on annule la répétition par défaut */
+    background-position: left center; /* on positionne où l'on veut */
+    padding-left: 20px; /* pour éviter la superposition du contenu */
+}
+
+li:before {
+    content: '\2022';
+    color: #1E95B2;
+    font-size: 140%;
+    padding-right: 0.5em;
+}
+
+/*header {
+    font-weight: bold;
+    font-size: 400%;
+    position: relative;
+    border: 3px solid #cccccc;
+    box-sizing: border-box;
+    display: block;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    text-align: center;
+}*/
+
+
+header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-bottom: 20px;
+}
+
